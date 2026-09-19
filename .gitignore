@@ -1,8 +1,8 @@
 node_modules/
 com.koop.streamdeck-midi.sdPlugin/bin/
 *.streamDeckPlugin
-Stream-Deck-WinMidi-Source.zip
-Stream-Deck-WinMidi-Marketplace-Submission.zip
+MIDIFire-Source.zip
+MIDIFire-Marketplace-Submission.zip
 *.log
 .DS_Store
 Thumbs.db

@@ -1,12 +1,12 @@
 name: Bug report
-description: Report a reproducible Stream Deck WinMidi problem
+description: Report a reproducible MIDIFire problem
 title: "[Bug]: "
 labels: ["bug"]
 body:
   - type: input
     id: version
     attributes:
-      label: Stream Deck WinMidi version
+      label: MIDIFire version
       placeholder: "1.1.1"
     validations:
       required: true

@@ -1,31 +1,31 @@
-# Stream Deck WinMidi — Marketplace listing
+# MIDIFire — Marketplace listing
 
 ## Submission fields
 
-- **Product name:** Stream Deck WinMidi
+- **Product name:** MIDIFire
 - **Category:** Music
 - **Price:** Free
 - **Platform:** Windows
 - **Author / organization:** Koop
-- **Support URL:** https://github.com/ibanman555/Stream-Deck-WinMidi/issues
-- **Setup guide:** https://github.com/ibanman555/Stream-Deck-WinMidi#readme
-- **Source code:** https://github.com/ibanman555/Stream-Deck-WinMidi
+- **Support URL:** https://github.com/ibanman555/MIDIFire/issues
+- **Setup guide:** https://github.com/ibanman555/MIDIFire#readme
+- **Source code:** https://github.com/ibanman555/MIDIFire
 
 ## Short description
 
-Send MIDI notes, control changes, program changes, raw MIDI, and SysEx from Stream Deck keys.
+Fire MIDI notes, control changes, program changes, raw MIDI, and SysEx from Stream Deck keys.
 
 ## Full description
 
-Stream Deck WinMidi turns Stream Deck keys into a configurable Windows MIDI controller. Send Note On/Off, Control Change, Program Change, raw MIDI bytes, and System Exclusive messages to physical interfaces or virtual ports such as Bome MIDI Translator.
+MIDIFire turns Stream Deck keys into configurable MIDI triggers on Windows. Fire Note On/Off, Control Change, Program Change, raw MIDI bytes, and System Exclusive messages to physical interfaces or virtual ports such as Bome MIDI Translator.
 
-Add the Send MIDI action to a key, choose a Windows MIDI output, select a message type, and enter the channel, note, controller, program, velocity, or value. Note and Control Change actions can send an automatic release message. Raw MIDI and SysEx support separate hexadecimal press and release sequences; SysEx messages must begin with F0 and end with F7.
+Add the Fire MIDI action to a key, choose a Windows MIDI output, select a message type, and enter the channel, note, controller, program, velocity, or value. Note and Control Change actions can send an automatic release message. Raw MIDI and SysEx support separate hexadecimal press and release sequences; SysEx messages must begin with F0 and end with F7.
 
-Optional on-key feedback displays successful sends and alerts for invalid data, unavailable ports, helper errors, or timeouts. Settings save automatically in Stream Deck. The plugin includes one configurable Send MIDI action for physical and virtual Windows MIDI outputs.
+Optional on-key feedback displays successful sends and alerts for invalid data, unavailable ports, helper errors, or timeouts. Settings save automatically in Stream Deck. The plugin includes one configurable Fire MIDI action for physical and virtual Windows MIDI outputs.
 
 Requires Windows 10 or later, Stream Deck 6.9 or later, and a physical or virtual Windows MIDI output.
 
-Stream Deck WinMidi is an independent project and is not affiliated with or endorsed by Elgato. Stream Deck is a trademark of Elgato.
+MIDIFire is an independent project and is not affiliated with or endorsed by Elgato. Stream Deck is a trademark of Elgato.
 
 ## Feature bullets
 
@@ -40,7 +40,7 @@ Stream Deck WinMidi is an independent project and is not affiliated with or endo
 
 ## Release notes — 1.1.4
 
-Renamed the product to Stream Deck WinMidi. Includes MIDI Note, CC, Program Change, raw MIDI, and SysEx support; selectable Windows MIDI outputs; optional press/release messages; visible success/error feedback; MIDI DIN artwork; and in-app setup and support links.
+Renamed the product to MIDIFire. Includes MIDI Note, CC, Program Change, raw MIDI, and SysEx support; selectable Windows MIDI outputs; optional press/release messages; visible success/error feedback; MIDI DIN artwork; and in-app setup and support links.
 
 ## Submission checklist
 

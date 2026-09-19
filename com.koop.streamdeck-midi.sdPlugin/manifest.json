@@ -1,11 +1,11 @@
 {
-  "Name": "Stream Deck WinMidi",
+  "Name": "MIDIFire",
   "Version": "1.1.4.0",
   "Author": "Koop",
   "Description": "Send MIDI notes, control changes, program changes, raw MIDI, and SysEx directly from Stream Deck keys on Windows.",
   "UUID": "com.koop.streamdeck-midi",
   "Icon": "imgs/plugin/icon",
-  "Category": "Stream Deck WinMidi",
+  "Category": "MIDIFire",
   "CategoryIcon": "imgs/plugin/category",
   "CodePath": "bin/plugin.js",
   "SDKVersion": 3,
@@ -24,7 +24,7 @@
   },
   "Actions": [
     {
-      "Name": "Send MIDI",
+      "Name": "Fire MIDI",
       "UUID": "com.koop.streamdeck-midi.send",
       "Icon": "imgs/actions/send/icon",
       "Tooltip": "Send a MIDI Note, Control Change, Program Change, raw message, or SysEx message.",

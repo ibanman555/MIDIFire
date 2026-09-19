@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="com.koop.streamdeck-midi.sdPlugin/imgs/plugin/icon@2x.png" width="192" alt="Stream Deck WinMidi MIDI DIN icon">
+  <img src="com.koop.streamdeck-midi.sdPlugin/imgs/plugin/icon@2x.png" width="192" alt="MIDIFire MIDI DIN icon">
 </p>
 
-# Stream Deck WinMidi
+# MIDIFire
 
-Stream Deck WinMidi is a Windows Stream Deck plugin for sending MIDI messages directly
+MIDIFire is a Windows Stream Deck plugin for firing MIDI messages directly
 from Stream Deck keys. It supports standard channel messages, arbitrary raw
 MIDI data, and System Exclusive messages without requiring Companion.
 
@@ -16,10 +16,10 @@ MIDI data, and System Exclusive messages without requiring Companion.
 
 ## Installation
 
-1. Open the [latest release](https://github.com/ibanman555/Stream-Deck-WinMidi/releases/latest).
+1. Open the [latest release](https://github.com/ibanman555/MIDIFire/releases/latest).
 2. Download `com.koop.streamdeck-midi.streamDeckPlugin` from **Assets**.
 3. Double-click the downloaded file and approve installation in Stream Deck.
-4. Drag **Stream Deck WinMidi → Send MIDI** onto a key.
+4. Drag **MIDIFire → Fire MIDI** onto a key.
 5. Choose a MIDI output and configure the message.
 
 Do not download GitHub's automatically generated source archive if you only
@@ -79,13 +79,13 @@ installer is excluded from source control and distributed through Releases.
 
 ## Support and contributions
 
-Use [GitHub Issues](https://github.com/ibanman555/Stream-Deck-WinMidi/issues) for bug
+Use [GitHub Issues](https://github.com/ibanman555/MIDIFire/issues) for bug
 reports and feature requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for build
 and testing guidance.
 
 ## License
 
-Stream Deck WinMidi is released under the [MIT License](LICENSE).
+MIDIFire is released under the [MIT License](LICENSE).
 
-Stream Deck is a trademark of Elgato. Stream Deck WinMidi is an independent project and
+Stream Deck is a trademark of Elgato. MIDIFire is an independent project and
 is not affiliated with or endorsed by Elgato.

@@ -1,5 +1,5 @@
 {
-  "name": "stream-deck-winmidi",
+  "name": "midifire",
   "version": "1.1.4",
   "private": true,
   "type": "module",
@@ -7,10 +7,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ibanman555/Stream-Deck-WinMidi.git"
+    "url": "https://github.com/ibanman555/MIDIFire.git"
   },
   "bugs": {
-    "url": "https://github.com/ibanman555/Stream-Deck-WinMidi/issues"
+    "url": "https://github.com/ibanman555/MIDIFire/issues"
   },
   "scripts": {
     "build": "rollup -c",
