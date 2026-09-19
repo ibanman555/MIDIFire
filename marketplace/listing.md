@@ -48,4 +48,5 @@ Renamed the product to MIDIFire. Includes MIDI Note, CC, Program Change, raw MID
 - Upload `thumbnail.png` as the 1920 × 960 thumbnail.
 - Upload all three `gallery-*.png` files as gallery items.
 - Upload `app-icon-288.png` as the 288 × 288 app icon.
+- Email `MIDIFire-Demo.mp4` to `maker@elgato.com` with the Marketplace review request.
 - Confirm that the Maker Console organization name is exactly `Koop`, matching the manifest Author field.
