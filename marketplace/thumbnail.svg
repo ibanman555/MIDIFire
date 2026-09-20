@@ -3,7 +3,7 @@
   <rect width="1920" height="960" fill="url(#bg)"/>
   <circle cx="1495" cy="480" r="306" fill="#16a34a"/>
   <circle cx="1495" cy="480" r="207" fill="none" stroke="#fff" stroke-width="40"/>
-  <rect x="1425" y="269" width="140" height="43" rx="5" fill="#fff"/>
+  <rect x="1425" y="238" width="140" height="38" rx="5" fill="#fff"/>
   <circle cx="1376" cy="462" r="31" fill="#fff"/><circle cx="1424" cy="381" r="31" fill="#fff"/><circle cx="1495" cy="357" r="31" fill="#fff"/><circle cx="1566" cy="381" r="31" fill="#fff"/><circle cx="1614" cy="462" r="31" fill="#fff"/>
   <text x="150" y="355" fill="#7ee787" font-family="Arial, sans-serif" font-size="44" font-weight="700" letter-spacing="6">STREAM DECK PLUGIN</text>
   <text x="150" y="490" fill="#fff" font-family="Arial, sans-serif" font-size="116" font-weight="800">MIDIFire</text>
