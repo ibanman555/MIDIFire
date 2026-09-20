@@ -9,6 +9,9 @@ It sends MIDI Note On/Off, Control Change (CC), Program Change, raw MIDI, and
 System Exclusive (SysEx) messages directly from Stream Deck keys without
 requiring Companion.
 
+Visit the **[MIDIFire website](https://ibanman555.github.io/MIDIFire/)** for a
+quick overview, setup guide, and the latest download.
+
 Use MIDIFire to control hardware synthesizers, keyboards, guitar processors,
 lighting software, DAWs, show-control applications, and Bome virtual MIDI ports
 from a Stream Deck, Stream Deck XL, Stream Deck Mini, or Stream Deck Plus key.

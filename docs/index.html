@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MIDIFire — Stream Deck MIDI Plugin for Windows</title>
+  <meta name="description" content="MIDIFire is a free Stream Deck MIDI plugin for Windows. Send MIDI notes, CC, Program Change, raw MIDI, and SysEx from Elgato Stream Deck keys.">
+  <link rel="canonical" href="https://ibanman555.github.io/MIDIFire/">
+  <link rel="icon" href="assets/midifire-icon.png" type="image/png">
+  <link rel="stylesheet" href="assets/style.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MIDIFire — Stream Deck MIDI for Windows">
+  <meta property="og:description" content="Fire MIDI notes, CC, Program Change, raw MIDI, and SysEx directly from your Stream Deck.">
+  <meta property="og:url" content="https://ibanman555.github.io/MIDIFire/">
+  <meta property="og:image" content="https://ibanman555.github.io/MIDIFire/assets/midifire-icon.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "MIDIFire",
+    "applicationCategory": "MultimediaApplication",
+    "operatingSystem": "Windows 10 or later",
+    "softwareVersion": "1.1.5",
+    "description": "A free, open-source MIDI plugin for Elgato Stream Deck on Windows that sends notes, Control Change, Program Change, raw MIDI, and SysEx.",
+    "downloadUrl": "https://github.com/ibanman555/MIDIFire/releases/latest",
+    "codeRepository": "https://github.com/ibanman555/MIDIFire",
+    "license": "https://opensource.org/license/mit",
+    "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="MIDIFire home">
+      <img src="assets/midifire-icon.png" alt="" width="46" height="46">
+      <span>MIDIFire</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#setup">Setup</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://github.com/ibanman555/MIDIFire">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Free and open source · Windows</p>
+        <h1>Fire MIDI messages from your Stream Deck.</h1>
+        <p class="lead">MIDIFire turns Elgato Stream Deck keys into a flexible Windows MIDI controller. Send notes, Control Change, Program Change, raw MIDI, and SysEx to hardware or software.</p>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/ibanman555/MIDIFire/releases/latest">Download MIDIFire</a>
+          <a class="button secondary" href="#setup">Installation guide</a>
+        </div>
+        <p class="requirements">Requires Windows 10+ and Stream Deck 6.9+</p>
+      </div>
+      <div class="hero-art" aria-label="MIDIFire five-pin MIDI DIN symbol">
+        <img src="assets/midifire-icon.png" alt="MIDIFire five-pin MIDI DIN app icon" width="512" height="512">
+        <div class="message-strip"><span>NOTE</span><code>90 3C 7F</code><strong>FIRED</strong></div>
+      </div>
+    </section>
+
+    <section class="uses" aria-label="Compatible uses">
+      <span>SYNTHS</span><span>DAWs</span><span>LIGHTING</span><span>SHOW CONTROL</span><span>BOME</span>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-heading">
+        <p class="eyebrow">One action. Every essential message.</p>
+        <h2>Stream Deck MIDI control without the clutter.</h2>
+        <p>Choose a Windows MIDI output, configure the message, and press the key. MIDIFire provides visible success and error feedback right on your Stream Deck.</p>
+      </div>
+      <div class="feature-grid">
+        <article><code>90 3C 7F</code><h3>Notes</h3><p>Send Note On with an optional Note Off when the key is released.</p></article>
+        <article><code>B0 07 64</code><h3>Control Change</h3><p>Control levels and parameters, with an optional zero value on release.</p></article>
+        <article><code>C0 0A</code><h3>Program Change</h3><p>Recall synth patches, processor presets, scenes, and cues instantly.</p></article>
+        <article><code>F0 … F7</code><h3>Raw MIDI and SysEx</h3><p>Enter hexadecimal bytes and send manufacturer-specific commands.</p></article>
+      </div>
+    </section>
+
+    <section class="section split" id="setup">
+      <div>
+        <p class="eyebrow">Quick setup</p>
+        <h2>From download to first message.</h2>
+        <p>MIDIFire works with physical MIDI interfaces and Windows virtual MIDI ports, including Bome MIDI Translator ports.</p>
+      </div>
+      <ol class="steps">
+        <li><span>1</span><div><h3>Install</h3><p>Download the <code>.streamDeckPlugin</code> file and double-click it.</p></div></li>
+        <li><span>2</span><div><h3>Add the action</h3><p>Drag <strong>MIDIFire → Fire MIDI</strong> onto a Stream Deck key.</p></div></li>
+        <li><span>3</span><div><h3>Choose a port</h3><p>Select the hardware or virtual Windows MIDI output.</p></div></li>
+        <li><span>4</span><div><h3>Fire</h3><p>Configure a message and press the key to send it.</p></div></li>
+      </ol>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="section-heading"><p class="eyebrow">FAQ</p><h2>Common questions</h2></div>
+      <div class="faq-grid">
+        <details open><summary>Can Stream Deck send MIDI on Windows?</summary><p>Yes. MIDIFire adds a native Stream Deck action that sends standard MIDI, raw MIDI, and SysEx through a selected Windows MIDI output.</p></details>
+        <details><summary>Does it work with virtual MIDI ports?</summary><p>Yes. Bome and other Windows virtual MIDI outputs appear beside physical MIDI interfaces in the output menu.</p></details>
+        <details><summary>Can it send a message on key release?</summary><p>Yes. Notes can send Note Off, CC can send zero, and raw mode can send a separate release message.</p></details>
+        <details><summary>Is MIDIFire free?</summary><p>Yes. MIDIFire is free and open source under the MIT License.</p></details>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div><p class="eyebrow">Ready to fire?</p><h2>Put MIDI on your Stream Deck.</h2></div>
+      <a class="button primary" href="https://github.com/ibanman555/MIDIFire/releases/latest">Download latest release</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>MIDIFire is an independent project and is not affiliated with or endorsed by Elgato.</p>
+    <div><a href="https://github.com/ibanman555/MIDIFire">Source code</a><a href="https://github.com/ibanman555/MIDIFire/issues">Support</a><a href="https://github.com/ibanman555/MIDIFire/blob/main/LICENSE">MIT License</a></div>
+  </footer>
+</body>
+</html>

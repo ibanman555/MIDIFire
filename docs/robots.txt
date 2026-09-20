@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ibanman555.github.io/MIDIFire/sitemap.xml
