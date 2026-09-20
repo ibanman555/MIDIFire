@@ -2,11 +2,23 @@
   <img src="com.koop.streamdeck-midi.sdPlugin/imgs/plugin/icon@2x.png" width="192" alt="MIDIFire MIDI DIN icon">
 </p>
 
-# MIDIFire
+# MIDIFire — Free Stream Deck MIDI Plugin for Windows
 
-MIDIFire is a Windows Stream Deck plugin for firing MIDI messages directly
-from Stream Deck keys. It supports standard channel messages, arbitrary raw
-MIDI data, and System Exclusive messages without requiring Companion.
+MIDIFire is a free, open-source MIDI plugin for Elgato Stream Deck on Windows.
+It sends MIDI Note On/Off, Control Change (CC), Program Change, raw MIDI, and
+System Exclusive (SysEx) messages directly from Stream Deck keys without
+requiring Companion.
+
+Use MIDIFire to control hardware synthesizers, keyboards, guitar processors,
+lighting software, DAWs, show-control applications, and Bome virtual MIDI ports
+from a Stream Deck, Stream Deck XL, Stream Deck Mini, or Stream Deck Plus key.
+
+## Download MIDIFire
+
+Download the latest Windows installer from the
+**[MIDIFire GitHub Releases page](https://github.com/ibanman555/MIDIFire/releases/latest)**.
+Choose `com.koop.streamdeck-midi.streamDeckPlugin`, quit Stream Deck, and
+double-click the downloaded file to install it.
 
 ## Requirements
 
@@ -38,6 +50,15 @@ want to install the plugin. Use the `.streamDeckPlugin` file under **Assets**.
 MIDI channels are displayed as 1–16. Note, CC, Program, velocity, and value
 numbers are entered as 0–127.
 
+## Common uses
+
+- Trigger notes, samples, cues, or sound effects from Stream Deck keys
+- Recall synthesizer and effects-processor presets with Program Change
+- Control DAW, mixer, lighting, and show-control parameters with MIDI CC
+- Send manufacturer-specific SysEx commands to MIDI hardware
+- Route Stream Deck MIDI through Bome MIDI Translator on Windows
+- Send separate MIDI messages when a Stream Deck key is pressed and released
+
 ## Bome MIDI Translator
 
 If Bome MIDI Translator is installed, Bome virtual MIDI ports appear in the plugin's **MIDI Output** menu. Select the
@@ -62,6 +83,23 @@ can send a different raw message when the key is released.
   data, rejected messages, helper failures, or timeouts.
 - **Success and errors** — also shows a green check after a successful send.
 - **None** — disables key feedback.
+
+## Frequently asked questions
+
+### Can Stream Deck send MIDI on Windows?
+
+Yes. MIDIFire adds a native Stream Deck action that sends standard MIDI, raw
+MIDI, and SysEx messages through any Windows MIDI output selected in the
+Property Inspector.
+
+### Does MIDIFire work with virtual MIDI ports?
+
+Yes. Windows virtual MIDI outputs—including Bome virtual MIDI ports—appear in
+the same output menu as physical MIDI interfaces.
+
+### Is MIDIFire free?
+
+Yes. MIDIFire is free and open source under the MIT License.
 
 ## Build from source
 
