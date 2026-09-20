@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.5 - 2026-09-20
+
+- Corrected the 5-pin MIDI DIN artwork so the connector notch remains visibly separated from the center pin on 72 × 72 Stream Deck keys.
+- Synchronized the app icon, key icon, category icon, Marketplace thumbnail, and demo video artwork.
+- Rebuilt and validated all distribution packages.
+
 ## 1.1.4 - 2026-09-17
 
 - Renamed the public product to MIDIFire while preserving the plugin UUID for compatibility.

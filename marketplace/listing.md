@@ -38,9 +38,9 @@ MIDIFire is an independent project and is not affiliated with or endorsed by Elg
 - Physical and virtual Windows MIDI outputs
 - Optional success and error feedback
 
-## Release notes — 1.1.4
+## Release notes — 1.1.5
 
-Renamed the product to MIDIFire. Includes MIDI Note, CC, Program Change, raw MIDI, and SysEx support; selectable Windows MIDI outputs; optional press/release messages; visible success/error feedback; MIDI DIN artwork; and in-app setup and support links.
+Corrected and synchronized the 5-pin MIDI DIN artwork across the Stream Deck key, app icon, category icon, Marketplace thumbnail, and demo media. The connector notch now remains clearly separated from the center pin at Stream Deck key resolution. Includes MIDI Note, CC, Program Change, raw MIDI, and SysEx support; selectable Windows MIDI outputs; optional press/release messages; and visible success/error feedback.
 
 ## Submission checklist
 
