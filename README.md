@@ -68,6 +68,40 @@ If Bome MIDI Translator is installed, Bome virtual MIDI ports appear in the plug
 Bome virtual input that should receive the Stream Deck messages, open Bome's
 MIDI log, and press the Stream Deck key to verify the transmitted bytes.
 
+The main idea for this plugin was to perform tasks in tandem with Bome MIDI Translator, and here are some examples of it's use outside of MIDI:
+
+- Keyboard macro engine — Use keyboard keys to trigger shortcuts, launch programs, switch applications, start timers, or run multi-step actions.
+
+- Windows automation — Generate keyboard and mouse actions, focus applications, launch executables, and open files.
+
+- Serial/COM-port translator — Receive and send serial data to devices such as Arduino boards, RS-232 equipment, button panels, and other controllers.
+
+- Custom control surfaces — Use physical buttons, switches, encoders, or Arduino inputs to control Windows software without using MIDI.
+
+- State machine / logic controller — Use variables to remember modes and states such as RECORDING, SHOW MODE, SHIFT MODE, selected page, or selected device.
+
+- Timer/sequencer engine — Create delayed actions, repeating actions, timed sequences, watchdogs, and multi-stage commands.
+
+- Application-aware controller — Make the same button perform different actions depending on which application currently has focus.
+
+- Mouse automation — Move the mouse, click buttons, and automate software that does not provide useful keyboard shortcuts or external control.
+
+- Program launcher / control station — Launch several applications, bring them into focus, send startup commands, and prepare a computer for a show or recording session.
+
+- Hardware protocol converter — Receive one serial command or byte pattern from a device and translate it into a completely different command for another device.
+
+- Watchdog / failsafe system — Trigger an action if an expected event does not occur within a certain amount of time.
+
+- Persistent mode controller — Store variables so selected states or operating modes can be remembered after restarting Bome or the computer.
+
+- Central show-control brain — Route commands between Stream Deck, MIDIFire, LiveTrax, Open Stage Control, Arduino devices, Windows applications, and other systems.
+
+- Conditional automation engine — Perform different actions depending on variables, button states, timing, application focus, or previous events.
+
+- Arduino-to-PC automation bridge — Have an Arduino send simple serial commands such as BUTTON1, RECORD, NEXT, or STOP and let Bome decide what the computer should do.
+
+- Event router — Use the basic concept: something happens → Bome checks conditions and state → Bome triggers one or more actions.
+
 ## Raw MIDI and SysEx
 
 Choose **Raw MIDI / SysEx**, then enter hexadecimal bytes separated by spaces,
