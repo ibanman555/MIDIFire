@@ -11,36 +11,25 @@
 - **Setup guide:** https://github.com/ibanman555/MIDIFire#readme
 - **Source code:** https://github.com/ibanman555/MIDIFire
 
-## Short description
+## Description — paste this into Maker Console
 
-Fire MIDI notes, control changes, program changes, raw MIDI, and SysEx from Stream Deck keys.
+MIDIFire turns Elgato Stream Deck keys into a flexible MIDI controller for Windows. Send commands to DAWs, software instruments, synthesizers, guitar processors, lighting, show-control software, and physical or virtual MIDI ports. It supports Note On/Off, Control Change, Program Change, raw MIDI, and System Exclusive (SysEx).
 
-## Full description
+Add the Fire MIDI action to a key, choose an output, select a message type, and enter the values. Settings save automatically with each key.
 
-MIDIFire turns Stream Deck keys into configurable MIDI triggers on Windows. Fire Note On/Off, Control Change, Program Change, raw MIDI bytes, and System Exclusive messages to physical interfaces or virtual ports such as Bome MIDI Translator.
+Trigger DAW transport, record, markers, mute, solo, automation, presets, and other functions. Raw mode can send button-style HUI or Mackie Control/MCU message bytes when supported by the DAW. MIDIFire sends commands; it does not emulate a complete bidirectional control surface.
 
-Add the Fire MIDI action to a key, choose a Windows MIDI output, select a message type, and enter the channel, note, controller, program, velocity, or value. Note and Control Change actions can send an automatic release message. Raw MIDI and SysEx support separate hexadecimal press and release sequences; SysEx messages must begin with F0 and end with F7.
+Route MIDIFire into optional Bome MIDI Translator for workflows beyond MIDI. Translate messages into keystrokes, mouse actions, application focus, macros, logic, and timed actions—for example, selecting a tab or clicking a control with no MIDI mapping or useful shortcut.
 
-Optional on-key feedback displays successful sends and alerts for invalid data, unavailable ports, helper errors, or timeouts. Settings save automatically in Stream Deck. The plugin includes one configurable Fire MIDI action for physical and virtual Windows MIDI outputs.
+Features include separate press/release messages, raw hexadecimal data, SysEx, automatic Note Off or CC value 0 on release, and optional success/error feedback.
 
-Requires Windows 10 or later, Stream Deck 6.9 or later, and a physical or virtual Windows MIDI output.
+Includes one Fire MIDI action. Requires Windows 10+, Stream Deck 6.9+, and a Windows MIDI output. Bome MIDI Translator is optional and sold separately.
 
 MIDIFire is an independent project and is not affiliated with or endorsed by Elgato. Stream Deck is a trademark of Elgato.
 
-## Feature bullets
-
-- Note On and Note Off
-- Control Change (CC)
-- Program Change
-- Raw hexadecimal MIDI data
-- System Exclusive (SysEx)
-- Separate press and release messages
-- Physical and virtual Windows MIDI outputs
-- Optional success and error feedback
-
 ## Release notes — 1.1.5
 
-Corrected and synchronized the 5-pin MIDI DIN artwork across the Stream Deck key, app icon, category icon, Marketplace thumbnail, and demo media. The connector notch now remains clearly separated from the center pin at Stream Deck key resolution. Includes MIDI Note, CC, Program Change, raw MIDI, and SysEx support; selectable Windows MIDI outputs; optional press/release messages; and visible success/error feedback.
+Renamed the plugin to MIDIFire and refreshed the Marketplace presentation. Corrected and synchronized the five-pin MIDI DIN artwork across the Stream Deck key, app icon, category icon, thumbnail, and demo media. Updated the gallery to keep all text centered and contained within its panels. Includes MIDI Note, CC, Program Change, raw MIDI, and SysEx support; selectable Windows MIDI outputs; optional press/release messages; and visible success/error feedback.
 
 ## Submission checklist
 
@@ -50,3 +39,4 @@ Corrected and synchronized the 5-pin MIDI DIN artwork across the Stream Deck key
 - Upload `app-icon-288.png` as the 288 × 288 app icon.
 - Email `MIDIFire-Demo.mp4` to `maker@elgato.com` with the Marketplace review request.
 - Confirm that the Maker Console organization name is exactly `Koop`, matching the manifest Author field.
+- In the **Versions** tab, choose **Submit new version**. Do not upload this file through the rejected 1.1.4 revision dialog.

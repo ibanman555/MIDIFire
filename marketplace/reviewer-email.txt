@@ -1,0 +1,22 @@
+To: maker@elgato.com
+Subject: MIDIFire 1.1.5 demo video and revised Marketplace submission
+
+Hello Elgato Marketplace Review Team,
+
+Thank you for the feedback on the rejected 1.1.4 submission. I have submitted MIDIFire 1.1.5 as a new version for review.
+
+The updated submission includes:
+
+- An expanded description explaining the plugin's functionality, setup, included action, and requirements
+- A revised 1920 × 960 thumbnail and three revised 1920 × 960 gallery images
+- Centered, contained text with no overlapping elements
+- Consistent MIDIFire branding and five-pin MIDI DIN artwork
+- The attached functional demonstration video showing MIDIFire sending MIDI through a Bome virtual MIDI output
+
+MIDIFire sends Note On/Off, Control Change, Program Change, raw MIDI, and SysEx messages from Stream Deck keys on Windows. It supports physical and virtual MIDI outputs, separate press/release messages, and optional success/error feedback.
+
+Please find the requested short demonstration video attached as MIDIFire-Functional-Demo.mp4. The recording shows the configured MIDIFire action, the selected Bome virtual MIDI port, the Stream Deck key press and release, and the resulting MIDI bytes in Bome's log.
+
+Thank you,
+Scott Koopmann
+Koop
