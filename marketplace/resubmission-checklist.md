@@ -4,6 +4,8 @@
 
 Submit **1.1.5 as a new version** in Maker Console. Do not select **Revise version** on the rejected 1.1.4 entry. The plugin manifest reports version `1.1.5.0`, so Maker Console will reject that package if it is uploaded as a revision of 1.1.4.
 
+If the existing Maker Console product title still says **Koop MIDI**, ask `maker@elgato.com` to rename the product to **MIDIFire**. Uploading the plugin does not change the Maker Console product title. The rename request is included in `reviewer-email.txt`.
+
 ## Product identity
 
 - Marketplace name: **MIDIFire**
@@ -31,7 +33,7 @@ All Marketplace images use the required dimensions:
 
 ## Maker Console steps
 
-1. Open **Products → MIDIFire → General**.
+1. Open the existing product in Maker Console. If its title is still **Koop MIDI**, keep using that product record for now and request the rename by email.
 2. Replace the description with the text under **Description — paste this into Maker Console** in `listing.md`.
 3. Open **Media** and replace the app icon, thumbnail, and all three gallery images with the files listed above.
 4. If the old gallery order remains, remove all old gallery items and add the new files in numerical order.

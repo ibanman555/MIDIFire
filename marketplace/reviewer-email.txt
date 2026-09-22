@@ -5,6 +5,8 @@ Hello Elgato Marketplace Review Team,
 
 Thank you for the feedback on the rejected 1.1.4 submission. I have submitted MIDIFire 1.1.5 as a new version for review.
 
+Please also rename the existing Maker Console product from “Koop MIDI” to “MIDIFire.” The plugin, action category, media, description, website, and version 1.1.5 package all use the MIDIFire name.
+
 The updated submission includes:
 
 - An expanded description explaining the plugin's functionality, setup, included action, and requirements
